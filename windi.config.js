@@ -6,4 +6,11 @@ export default defineConfig({
     exclude: ['node_modules', '.git'],
   },
   attributify: { prefix: 'w:' },
+  theme: {
+    extend: {
+      fontFamily: {
+        RedHatDisplay: ['Red Hat Display', 'sans-serif'],
+      }
+    }
+  }
 });
