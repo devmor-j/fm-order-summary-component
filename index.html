@@ -18,9 +18,9 @@
 
 </head>
 
-<body class="min-h-screen flex items-center justify-center" w:font="RedHatDisplay" w:bg="clr-pale-blue">
+<body class="min-h-screen flex items-center justify-center" w:font="RedHatDisplay" w:bg="clr-pale-blue no-repeat top contain">
   <main class="max-w-sm space-y-10" w:border="rounded-2xl" w:text="center clr-desat-blue" w:bg="white">
-    <img w:border="rounded-t-2xl" src="./images/illustration-hero.svg" alt="">
+    <img w:border="rounded-t-2xl" src="./images/illustration-hero.svg" alt="" draggable="false">
 
     <div class="px-6 pb-4 space-y-6">
       <div class="space-y-4">
@@ -29,8 +29,8 @@
       </div>
       <div class="flex justify-between items-center p-6" w:bg="clr-very-pale-blue" w:border="rounded-xl">
         <div class="flex gap-4">
-          <img class="object-contain" src="./images/icon-music.svg" alt="">
-          <div>
+          <img class="object-contain" src="./images/icon-music.svg" alt="" draggable="false">
+          <div class="text-center">
             <h2 w:text="clr-dark-blue" w:font="black">Annual Plan</h2>
             <p>$59.99/year</p>
           </div>
@@ -42,6 +42,19 @@
       <button class="block m-auto pb-4" w:font="black" role="button" w:hover:text="clr-dark-blue" w:transition="colors">Cancel Order</button>
     </div>
   </main>
+
+  <!-- background svg decorative image -->
+  <style>
+    body {
+      background-image: url('./images/pattern-background-mobile.svg');
+    }
+
+    @media (min-width: 640px) {
+      body {
+        background-image: url('./images/pattern-background-desktop.svg');
+      }
+    }
+  </style>
 
 </body>
 

@@ -21,7 +21,7 @@ export default defineConfig({
       },
       boxShadow: {
         'bsh-button': '0px 6px 24px 0px rgba(0,0,0,0.1),0px 3px 18px -6px rgba(0,0,0,0.1)'
-      }
+      },
     },
-  }
+  },
 });
