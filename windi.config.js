@@ -17,6 +17,7 @@ export default defineConfig({
         'clr-very-pale-blue': 'hsl(225, 100%, 98%)', // Very pale blue
         'clr-desat-blue': 'hsl(224, 23%, 55%)', // Desaturated blue
         'clr-dark-blue': 'hsl(223, 47%, 23%)', // Dark blue
+        'clr-bright-purple': 'hsl(245, 83%, 68%)', // Bright purple
       },
       boxShadow: {
         'bsh-button': '0px 6px 24px 0px rgba(0,0,0,0.1),0px 3px 18px -6px rgba(0,0,0,0.1)'
